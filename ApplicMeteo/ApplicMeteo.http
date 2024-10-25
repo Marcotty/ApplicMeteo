@@ -1,0 +1,10 @@
+@ApplicMeteo_HostAddress = https://localhost:7241
+
+GET {{ApplicMeteo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{ApplicMeteo_HostAddress}}/weather
+
+###
